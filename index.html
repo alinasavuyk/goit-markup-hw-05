@@ -336,28 +336,32 @@
                 </svg></button>
             <p class="modal-text">Leave your contacts and we will call you back</p>
             <form class="modal-form">
-                <div class="modal-label">
-                <label >Name<input type="text" name="name" class="modal-input">
+                <div class="modal-container">
+                <label class="modal-label" for="user-name">Name</label>
+                    <div class="input-container"><input type="text" name="user-name"  id="user-name" class="modal-input">
                     <svg width="18" height="24" class="modal-person icons">
                         <use href="./images/icons.svg#person"></use>
-                    </svg>
-                </label></div>
-                <div  class="modal-label">
-                <label>Phone<input type="tel" name="contact_tel" class="modal-input">
+                    </svg></div>
+                </div>
+                <div  class="modal-container">
+                <label class="modal-label">Phone</label>
+                <div class="input-container"><input type="tel" name="contact_tel" class="modal-input">
                     <svg width="18" height="24" class="modal-phone icons">
                         <use href="./images/icons.svg#phone"></use>
-                    </svg>
-                </label></div>
-                <div class="modal-label">
-                <label >Email<input type="email" name="email" class="modal-input">
+                    </svg></div>
+                </div>
+                <div class="modal-container">
+                <label class="modal-label">Email</label>
+                    <div class="input-container"><input type="email" name="email" class="modal-input">
                     <svg width="18" height="24" class="modal-email icons">
                         <use href="./images/icons.svg#email"></use>
-                    </svg>
-                </label></div>
-                <div class="modal-label">
-                <label >Comment<textarea class="modal-textrea" name="comment" rows="5"
+                    </svg></div>
+                </div>
+                <div class="modal-container">
+                <label class="modal-label">Comment</label>
+                <div class="input-container"><textarea class="modal-textrea" name="comment" rows="5"
                         placeholder="Text input">Text input
-                    </textarea> </label></div>
+                    </textarea></div></div>
                     <div class="checkbox-label">
                 <label >
                     <input type="checkbox" class="checkbox-input" name="privacy-policy" value="true">
