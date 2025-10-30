@@ -560,6 +560,7 @@ margin-right: 120px;
  .button-modal:focus {
     background-color: var(--ocean);
     border: none;
+    fill: var(--white);
  }
  .button-modal-close {
      fill: var(--navy-blue);
