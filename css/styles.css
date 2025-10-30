@@ -497,6 +497,7 @@ margin-right: 120px;
  }
  .footer-button-svg{
     margin-left: 16px;
+    fill: var(--white);
  }
  .footer-button-input:hover,
  .footer-button-input:focus {
