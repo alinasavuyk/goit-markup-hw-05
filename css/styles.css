@@ -639,6 +639,7 @@ margin-right: 120px;
      color: var(--navy-blue-modal);
      padding: 8px 16px;
      outline: transparent;
+     background-color: transparent;
      resize: none;
      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
      transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -697,12 +698,10 @@ margin-right: 120px;
     fill: transparent;
     margin-right: 8px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
  }
  .modal-check-icons {
      fill: transparent;
      transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
  }
  .agreement-text {
      margin-left: 8px;
@@ -711,8 +710,12 @@ margin-right: 120px;
     letter-spacing: 0.04em;
     color: var(--light-slate);
  }
+ .checkbox-input:checked+.agreement-text .container-checkbox {
+     background-color: var(--ocean);
+    fill: var(--cloud);
+     border: none;
+ }
  .checkbox-input:checked + .agreement-text .modal-check-icons {
-     background-color: var(--iris);
      fill: var(--cloud);
     border: none;
  }
